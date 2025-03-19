@@ -1,0 +1,106 @@
+body{
+    width: 700px;
+    margin: 0 auto;
+    background-color: black;
+}
+.flex-container0 {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;  
+}
+.flex-container0 > div {
+    font-size: 15px;
+    flex:1 1 0;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    font: bold; 
+    color: white;
+    text-align: center;    
+}
+
+.flex-container1 {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+
+}
+.flex-container1 > div {
+    margin: 50px;
+    padding: 30px;
+    font-size: 15px;
+    flex:1 1 0;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+.flex-container2 {
+    display: flex;
+    background-color: white;
+    flex-direction: column;            
+}
+.flex-container2 > div {
+    margin: 10px;
+    font-size: 15px;
+    flex:1 1 0;
+    justify-content: space-evenly;                         
+}    
+.box-2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-style:solid;
+    border-color: lightblue;
+    border-radius: 20%;
+    text-align: center;     
+
+}
+.flex-container3 {
+    display: flex;
+    background-color: lightgray;
+    flex-direction: row;
+}
+.flex-container3 > div {
+    margin: 10px;             
+    font-size: 15px;
+    flex:1 1 0;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+.flex-container4 {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+}
+.flex-container4 > div {
+    margin: 50px;
+    padding: 30px;
+    font-size: 15px;
+    flex:1 1 0;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+ .flex-container5 {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;  
+}
+.flex-container5 > div {
+    font-size: 15px;
+    flex:1 1 0;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    font: bold; 
+    color: white;
+    text-align: center;    
+}
